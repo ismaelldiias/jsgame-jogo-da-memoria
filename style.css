@@ -1,0 +1,143 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: solid #FFFFFF;
+	height: 10%;
+}
+
+header h1 {
+	color: #FFFFFF;
+	font-family: fantasy;
+	font-size: 2.5rem;
+}
+
+h2{
+	font-size: 4.5em;
+	padding: 0px;
+	margin: 0px;
+}
+
+.principal {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: solid green;
+	height: 90%;
+}
+
+.menu {
+	display: block;
+	height: 500px;
+	width: 500px;
+	margin: 50px;
+	border: solid white 5px;
+}
+
+.settings {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.container{
+	display: none;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	border: solid black;
+	height: 85%;
+	width: 75%;
+}
+
+.item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border-radius: 25%;
+	height: 100px;
+	width: 100px;
+	border: solid;
+	margin: 2px;
+}
+
+.options {
+	height: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.chooseOption {
+	height: 110px;
+	width: 45%;
+	margin: 10px 5px 0 5px;
+	border: solid;
+}
+
+.chooseOption.checked {
+	border: solid white;
+	border-radius: 10px;
+}
+
+.nameOption {
+	height: 70%;
+	font-size: 5px;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.nameOption h1 {
+	margin: 5px;
+	font-size: 30px;
+}
+
+.checkOption {
+	height: 25%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	color: black;
+}
+
+.checkOption label {
+	font-weight: bold;
+	color: white;
+}
+
+.start {
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.start button {
+	height: 75%;
+	width: 95%;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: fantasy;
+}
+
+.start button:hover {
+	color: red;
+}
+  
